@@ -30,7 +30,7 @@ function sendOtpEmail($email, $otp) {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'sravinfotech@gmail.com';   // 👈 YOUR GMAIL
-        $mail->Password   = 'eaiemknphrgwqoqe'; // 👈 NO SPACES
+        $mail->Password   = 'ea###kn##rgw####'; // 👈 NO SPACES
         $mail->SMTPSecure = \PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->SMTPOptions = array(
